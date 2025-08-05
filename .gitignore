@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *.egg
@@ -8,29 +7,15 @@ __pycache__/
 *.pyc
 *.sqlite3
 
-# Virtual environment
 venv/
 env/
-
-# Django
+.idea/
 *.log
 local_settings.py
 db.sqlite3
-
-
 resume/
 media/
-
 pictures/
 
-# VSCode
-.vscode/
 
-# macOS
-.DS_Store
 
-# Windows
-Thumbs.db
-
-# PyCharm
-.idea/
