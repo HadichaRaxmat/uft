@@ -43,6 +43,8 @@ class JobApplicationSerializer(serializers.ModelSerializer):
 
 
 class ClientFeedbackSerializer(serializers.ModelSerializer):
+    image = serializers.ImageField(required=True)
+    feedback_file = serializers.FileField(required=True)
     feedback_file_url = serializers.SerializerMethodField()
     image_url = serializers.SerializerMethodField()
 
@@ -55,6 +57,8 @@ class ClientFeedbackSerializer(serializers.ModelSerializer):
             'position',
             'company_name',
             'comment',
+            'image',
+            'feedback_file',
             'image_url',
             'feedback_file_url'
         ]
