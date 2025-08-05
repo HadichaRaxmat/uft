@@ -17,8 +17,10 @@ env/
 local_settings.py
 db.sqlite3
 
-# Media/uploads
+
+resume/
 media/
+
 pictures/
 
 # VSCode
